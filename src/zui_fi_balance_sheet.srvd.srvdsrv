@@ -1,0 +1,7 @@
+@EndUserText.label: 'Balance Sheet'
+define service ZUI_FI_BALANCE_SHEET {
+  expose ZC_FI_BALANCE_SHEET     as BalanceSheet;
+  expose I_CompanyCodeStdVH      as CompanyCode_VH;
+  expose ZI_GLAccountHierarchyVH as GLAccHry_VH;
+  expose ZI_LedgerVH             as Ledger_VH;
+}

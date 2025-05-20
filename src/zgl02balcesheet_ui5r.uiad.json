@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Balance Sheet",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "zgl02balancesheet"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_1F4DA5BC770B4BDAE583FA27A181CBFC1679E601_TM",
+    "semanticObject": "zgl02balancesheet",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_1F4DA5BC770B4BDAE583FA27A181CBFC1679E601_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Balance Sheet",
+        "subtitle": "ZGL05"
+      }
+    }
+  ]
+}
